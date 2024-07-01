@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./public/style.css" rel="stylesheet">
+    <title>SEA SALON</title>
+</head>
+<body>
+    <!-- nav start -->
+    <header class="sticky inset-0 z-50 border-b border-slate-100 bg-white/80 backdrop-blur-lg">
+        <nav class="mx-auto flex max-w-6xl gap-8 px-6 transition-all duration-200 ease-in-out lg:px-12 py-4">
+            <div class="relative flex items-center">
+                <h1 class="text-xl font-bold text-slate-800">SEA Salon</h1>
+            </div>
+            <ul class="hidden items-center justify-center gap-6 md:flex">
+                <li class="pt-1.5 font-dm text-sm font-medium text-slate-700 hover:text-slate-900">
+                    <a href="#">About</a>
+                </li>
+                <li class="pt-1.5 font-dm text-sm font-medium text-slate-700 hover:text-slate-900">
+                    <a href="#">Services</a>
+                </li>
+                <li class="pt-1.5 font-dm text-sm font-medium text-slate-700 hover:text-slate-900">
+                    <a href="#">Contacs</a>
+                </li>
+            </ul>
+            <div class="flex-grow"></div>
+            <div class="hidden items-center justify-center gap-6 md:flex">
+                <a href="login.php" class="text-sm font-medium text-gray-900 rounded-lg bg-transparent border border-pink-500 px-3 py-1.5 transition-transform duration-200 ease-in-out hover:scale-[1.03] hover:bg-pink-600 hover:text-white">Sign in</a>
+                <a href="register.php" class="text-sm font-medium text-white rounded-lg bg-pink-500 px-3 py-1.5 transition-transform duration-200 ease-in-out hover:scale-[1.03] hover:bg-pink-600">Sign up</a>
+                
+            </div>
+            <div class="relative flex items-center justify-center md:hidden">
+                <button type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-6 w-auto text-slate-900"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- nav end -->
+
+    <!-- Hero start -->
+    <div class="pt-16 sm:pt-24" id="hero">
+        <div class="mx-auto max-w-7xl ">
+            <div class="space-y-8 lg:space-y-0 lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
+                    <div class="space-y-8">
+                        <div class="space-y-4">
+                            <div class="space-y-2">
+                                <span
+                                    class="rounded-full bg-pink-500 px-3 py-1 text-sm font-semibold leading-5 text-white cursor-pointer">
+                                    Promo Today!
+                                </span>
+                                <h1 class="text-4xl font-bold tracking-tight text-slate-800 sm:text-5xl md:text-6xl">
+                                    <span class="sm:text-6xl"></span>
+                                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">Beauty</span> 
+                                    and 
+                                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">Elegance</span> Redefined
+                                    
+                                </h1>
+                            </div>
+    
+                            <p class="text-base text-gray-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                                It's time to pamper yourself with a range of beauty and elegance services at SEA Salon. 
+                                We always provide the best service in its class
+                            </p>
+    
+                        </div>
+    
+                        <div class="border-t border-gray-700"></div>
+    
+                        <div class="flex space-x-4 items-center text-black">
+                            <div class="flex items-center space-x-2">
+                                <div class="flex flex-shrink-0 -space-x-1">
+                                    <img loading="lazy" width="400" height="400" decoding="async"
+                                        class="h-6 w-6 max-w-none rounded-full ring-2 ring-black"
+                                        style="color:transparent" src="./image/foto1.jpeg">
+                                    <img loading="lazy" width="400" height="400" decoding="async"
+                                        class="h-6 w-6 max-w-none rounded-full ring-2 ring-black"
+                                        style="color:transparent" src="./image/foto2.jpeg">
+                                    <img loading="lazy" width="100" height="100" decoding="async"
+                                        class="h-6 w-6 max-w-none rounded-full ring-2 ring-black"
+                                        style="color:transparent" src="./image/foto3.jpeg">
+                                    <img loading="lazy" width="200" height="200" decoding="async"
+                                        class="h-6 w-6 max-w-none rounded-full ring-2 ring-black"
+                                        style="color:transparent" src="./image/foto4.jpeg">
+                                </div>
+    
+                                <span class="flex-shrink-0 text-xs font-medium leading-5">+15</span>
+    
+                            </div>
+    
+                            <div class="h-4 border-l border-gray-700"></div>
+    
+                            <div class="flex items-center">
+    
+                                <svg class="h-4 w-4 fill-current text-yellow-500" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z">
+                                    </path>
+                                </svg>
+                                <svg class="h-4 w-4 fill-current text-yellow-500" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z">
+                                    </path>
+                                </svg>
+                                <svg class="h-4 w-4 fill-current text-yellow-500" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z">
+                                    </path>
+                                </svg>
+                                <svg class="h-4 w-4 fill-current text-yellow-500" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z">
+                                    </path>
+                                </svg>
+                                <svg class="h-4 w-4 fill-current text-yellow-500" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z">
+                                    </path>
+                                </svg>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="flex items-center w-full col-span-6">
+                    <div class="px-6 h-96 lg:h-100% w-full max-w-2xl col-span-6 flex items-center mx-auto">
+                        <div style="width: 100%; height: 100%;">
+                            <div style="width: 100%; height: 100%;">
+                                <iframe frameborder="0" allowfullscreen="1"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    width="100%" height="100%"
+                                    src="https://www.youtube.com/embed/iYGOpUSbi7Q?autoplay=0&amp;mute=0&amp;controls=0&"
+                                    id="widget2">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero end -->
+
+    <!-- Sponsor start -->
+    <div class="bg-white w-full px-4 pt-16 pb-4 " id="sponsor">
+        <h2 class="text-2xl font-bold text-center">Sponsor by</h2>
+        <div class="mx-auto w-full max-w-4xl bg-white justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
+            <a href="">
+                <img alt="" class="h-40 mx-auto" src="./image/logo loreal1.jpg">
+            </a>
+            <a href="">
+                <img alt="" class="h-10 mx-auto" src="./image/logo makarizo.jpeg">
+            </a>
+            <a href="">
+                <img alt="" class="h-10 mx-auto" src="./image/logo tresemme.png">
+            </a>
+            <a href="">
+                <img alt="" class="h-20 mx-auto" src="./image/logo pantene.png">
+            </a>
+            <a href="">
+                <img alt="" class="h-10 mx-auto" src="./image/logo dove.png">
+            </a>
+            <a href="">
+                <img alt="" class="h-16 mx-auto" src="./image/logo garnier.png">
+            </a>
+        </div>
+    </div>
+    <!-- sponsor end -->
+
+    <!-- gallery start -->
+    <div class="bg-white w-full px-4 pt-16 pb-4 " id="sponsor">
+        <h2 class="text-2xl font-bold text-center">What We've Done ?</h2>
+
+        <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                        <img src="./image/style.jpeg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Styling</h3>
+                    </a>
+                </div>
+                <div class="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
+                        <img src="./image/nail.jpeg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Menicure</h3>
+                    </a>
+                    <div class="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
+                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="./image/pedi.jpeg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Pedicure</h3>
+                        </a>
+                        <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
+                            <img src="./image/face.jpeg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                            <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                            <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Facial</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
+                    <a href="" class="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+                        <img src="./image/hair.jpeg" alt="" class="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out">
+                        <div class="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+                        <h3 class="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">Haircuts</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gallery end -->
+
+    <!-- Service start -->
+    <div class="relative overflow-hidden bg-white pt-16 pb-32 space-y-24">
+        <div class="relative">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+                    <div>
+                        <div>
+                            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                    class="h-8 w-8 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mt-6">
+                            <h2 class="text-3xl font-bold tracking-tight text-white">
+                                Natural Language Generation (NLG):
+                            </h2>
+                            <p class="mt-4 text-lg text-gray-300">
+                                The AI product can generate human-like written content, summaries, or reports based on
+                                structured data or analysis results.
+                            </p>
+                            <div class="mt-6">
+                                <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                                    href="/login">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                        <img loading="lazy" width="646" height="485"
+                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent" src="./image/srv2.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="relative">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 lg:col-start-2">
+                    <div>
+                        <div>
+                            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                    class="h-8 w-8 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mt-6">
+                            <h2 class="text-3xl font-bold tracking-tight text-white">
+                                Sentiment Analysis:
+                            </h2>
+                            <p class="mt-4 text-lg text-gray-300">
+                                The product has built-in sentiment analysis capabilities, allowing it to determine the
+                                sentiment (positive, negative, or neutral) expressed in text or customer feedback.
+                            </p>
+                            <div class="mt-6">
+                                <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                                    href="/login">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                        <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+                            class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent" src="./image/serv1.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="relative">
+            <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8 ">
+                <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0 ">
+                    <div>
+                        <div>
+                            <span class="flex h-12 w-12 items-center justify-center rounded-xl bg-pink-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true"
+                                    class="h-8 w-8 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mt-6">
+                            <h2 class="text-3xl font-bold tracking-tight text-white">
+                                Natural Language Generation (NLG):
+                            </h2>
+                            <p class="mt-4 text-lg text-gray-300">
+                                The AI product can generate human-like written content, summaries, or reports based on
+                                structured data or analysis results.
+                            </p>
+                            <div class="mt-6">
+                                <a class="inline-flex rounded-lg bg-pink-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-pink-600 hover:bg-pink-700 hover:ring-pink-700"
+                                    href="/login">
+                                    Learn More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 sm:mt-16 lg:mt-0">
+                    <div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                        <img loading="lazy" width="646" height="485"
+                            class="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                            style="color:transparent" src="./image/srv3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service end -->
+
+    <!-- must us start -->
+    <div class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+        <div class="col-span-2 mb-8">
+            <p class="text-lg font-medium text-pink-500">Why Must Us ?</p>
+            <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
+                Trusted
+                by over 700++ customers</h2>
+            <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Our rigorous security and compliance
+                standards
+                are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
+            
+        </div>
+        <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
+            <div>
+                <svg class="w-10 h-10 mb-2 text-pink-500 md:w-12 md:h-12 " fill="currentColor"
+                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">99.99% uptime</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">For Landwind, with zero maintenance downtime</p>
+            </div>
+            <div>
+                <svg class="w-10 h-10 mb-2 text-pink-500 md:w-12 md:h-12 " fill="currentColor"
+                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z">
+                    </path>
+                </svg>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">600M+ Users</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Trusted by over 600 milion users around the world
+                </p>
+            </div>
+            <div>
+                <svg class="w-10 h-10 mb-2 text-pink-500 md:w-12 md:h-12" fill="currentColor"
+                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">100+ countries</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Have used Landwind to create functional websites
+                </p>
+            </div>
+            <div>
+                <svg class="w-10 h-10 mb-2 text-pink-500 md:w-12 md:h-12 " fill="currentColor"
+                    viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
+                    </path>
+                </svg>
+                <h3 class="mb-2 text-2xl font-bold dark:text-white">5+ Million</h3>
+                <p class="font-light text-gray-500 dark:text-gray-400">Transactions per day</p>
+            </div>
+        </div>
+    </div>
+
+    <!--must us end  -->
+
+    <!-- footer -->
+    <section class="bg-gray-100">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
+            <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900">Visit Our Location</h2>
+                <p class="mt-4 text-lg text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="mt-16 lg:mt-20">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="rounded-lg overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
+                            width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div>
+                        <div class="max-w-full mx-auto rounded-lg overflow-hidden">
+                            <div class="px-6 py-4">
+                                <h3 class="text-lg font-medium text-gray-900">Our Address</h3>
+                                <p class="mt-1 text-gray-600">123 Main St, San Francisco, CA 94105</p>
+                            </div>
+                            <div class="border-t border-gray-200 px-6 py-4">
+                                <h3 class="text-lg font-medium text-gray-900">Hours</h3>
+                                <p class="mt-1 text-gray-600">Monday - Friday: 9am - 5pm</p>
+                                <p class="mt-1 text-gray-600">Saturday: 10am - 4pm</p>
+                                <p class="mt-1 text-gray-600">Sunday: Closed</p>
+                            </div>
+                            <div class="border-t border-gray-200 px-6 py-4">
+                                <h3 class="text-lg font-medium text-gray-900">Contact</h3>
+                                <p class="mt-1 text-gray-600">Email: info@example.com</p>
+                                <p class="mt-1 text-gray-600">Phone: +1 23494 34993</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+
+    
+    
+
+
+    
+</body>
+</html>
