@@ -7,10 +7,11 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'Admin') {
 
 require '../config.php';
 
-$reservation_query = "SELECT reservations.id, users.full_name, services.name AS service_name, reservations.reservation_date 
+$reservation_query = "SELECT reservations.id, users.full_name, services.name AS service_name, reservations.reservation_date, branches.name AS branch_name 
                       FROM reservations 
                       JOIN users ON reservations.user_id = users.id 
                       JOIN services ON reservations.service_id = services.id 
+                      JOIN branches ON services.branch_id = branches.id 
                       ORDER BY reservations.reservation_date DESC";
 $stmt = $pdo->query($reservation_query);
 $reservations = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -34,6 +35,7 @@ $reservations = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <th class="py-2">Customer Name</th>
                     <th class="py-2">Service</th>
                     <th class="py-2">Reservation Date</th>
+                    <th class="py-2">Branch</th>
                 </tr>
             </thead>
             <tbody>
@@ -43,6 +45,7 @@ $reservations = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <td class="border px-4 py-2"><?php echo htmlspecialchars($reservation['full_name']); ?></td>
                     <td class="border px-4 py-2"><?php echo htmlspecialchars($reservation['service_name']); ?></td>
                     <td class="border px-4 py-2"><?php echo htmlspecialchars($reservation['reservation_date']); ?></td>
+                    <td class="border px-4 py-2"><?php echo htmlspecialchars($reservation['branch_name']); ?></td>
                 </tr>
                 <?php endforeach; ?>
             </tbody>

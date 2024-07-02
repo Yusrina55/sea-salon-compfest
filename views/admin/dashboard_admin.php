@@ -17,7 +17,8 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'Admin') {
 <body>
     <div class="container mx-auto mt-10">
         <h1 class="text-3xl font-bold mb-5">Admin Dashboard</h1>
-        <a href="add_service.php" class="bg-blue-500 text-black py-2 px-4 mb-4 inline-block">Add New Service</a>
+        <a href="branch.php" class="bg-blue-500 text-black py-2 px-4 mb-4 inline-block">Branch</a>
+        <a href="add_service.php" class="bg-blue-500 text-black py-2 px-4 mb-4 inline-block">Add Services</a>
         <a href="see_reservation.php" class="bg-blue-500 text-black py-2 px-4 mb-4 inline-block">See Reservation</a>
         <a href="see_review.php" class="bg-blue-500 text-black py-2 px-4 mb-4 inline-block">See Review</a>
     </div>
